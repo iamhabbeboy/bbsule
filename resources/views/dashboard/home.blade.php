@@ -31,7 +31,13 @@
                 <span class="float-right"><a class="btn btn-xs btn-warning" href="index.html#">View</a></span>
               </h6>
 			  <div class="flexbox align-items-center">
-				 <div><small>Total Images Uploaded</small><p class="font-size-26 mb-0">{{count(explode(',', $galleries->image_path)) -1}}</p></div>
+				 <div><small>Total Images Uploaded</small><p class="font-size-26 mb-0">
+          @if(array_get($galleries, 'image_path'))
+          {{count(explode(',', $galleries->image_path)) -1}}
+          @else
+           0
+        @endif
+      </p></div>
 
 			  </div>
             </div>
@@ -68,11 +74,17 @@
 			{{-- @if(count($galleries) > 0) --}}
 
                     <div class="row">
+                      @if(array_get($galleries, 'image_path'))
                       @foreach(explode(',', $galleries->image_path) as $pix)
                         @if($pix !== '')
                           <div class="col-md-3"><img src="/gallery/{{$pix}}" class="image" /></div>
                         @endif
                       @endforeach
+                      @else
+                        <div class="col-md-12">
+                          <div class="alert-info alert">No pictures Available</div>
+                        </div>
+                      @endif
                     </div>
                     <hr>
                     <br>
