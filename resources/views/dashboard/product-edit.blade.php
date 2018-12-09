@@ -204,15 +204,23 @@
 
     $('#upload').change(function() {
       let formdata = new FormData();
-      $('#product-preview').html('<i>please wait....</i>')
+      
         if($(this).prop('files').length > 0) {
           let file = $(this).prop('files');
           console.log(file)
           for (var x = 0; x < file.length; x++) {
+            let filesize = Math.floor(file[x].size)/1024;
+            let fileint = parseInt(filesize);
+            if (fileint > 2048) {
+              alert('Max file size is 2MB');
+              return false;
+            } else {
               formdata.append("upload[]", file[x]);
+            }
           }
           // formdata.append("upload", file);
         }
+        $('#product-preview').html('<i>please wait....</i>')
        const config = {
         url: '/ajax-pictures',
          data: formdata,
