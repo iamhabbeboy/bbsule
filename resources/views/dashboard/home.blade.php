@@ -70,14 +70,20 @@
               <h4 class="box-title">Recent Image Uploaded</h4>
             </div>
             <div class="box-body">
-				<div class="row">
-			{{-- @if(count($galleries) > 0) --}}
-
+				<!-- <div class="row"> -->
+                    <p>Category: {{$galleries->category}}</p>
+					          <p>Created: {{$galleries->created_at->format('Y-m-d h:ia')}}</p>
+                      
                     <div class="row">
                       @if(array_get($galleries, 'image_path'))
+                      
                       @foreach(explode(',', $galleries->image_path) as $pix)
                         @if($pix !== '')
-                          <div class="col-md-3"><img src="/gallery/{{$pix}}" class="image" /></div>
+                          <div class="col-md-3">
+                          <a href="/picture/{{$pix}}" target="_blank">
+                          <img src="/picture/{{$pix}}" class="image" style="padding:3px;border: 1px solid #ccc"/>
+                          </a>
+                          </div>
                         @endif
                       @endforeach
                       @else
@@ -89,12 +95,7 @@
                     <hr>
                     <br>
 
-              {{-- @else
-                <div class="alert alert-info">
-                  <p>No Image in the gallery</p>
-                </div>
-               @endif --}}
-            </div>
+            <!-- </div> -->
             <!-- /.box-body -->
           </div>
           <!-- /.box -->

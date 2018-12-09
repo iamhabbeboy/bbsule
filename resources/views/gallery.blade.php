@@ -1,5 +1,6 @@
 @extends('layouts.parent')
 @section('content')
+<link rel="stylesheet" href="/css/lightbox.css"/>
 	<div id="content" class="site-content">
 
 
@@ -55,7 +56,9 @@
                     <div class="row">
                       @foreach(explode(',', $gallery->image_path) as $pix)
                         @if($pix !== '')
-                          <div class="col-md-3"><img src="/gallery/{{$pix}}" class="image" /></div>
+                          <div class="col-md-3">
+						  <a class="example-image-link" href="/picture/{{$pix}}" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="/picture/{{$pix}}" alt=""/></a>
+							</div>
                         @endif
                       @endforeach
                 </div>
@@ -148,10 +151,6 @@
 
 
 	</div><!-- #content -->
-
-
-
-
-
+ <script src="/client/lightbox.js"></script>
 
 @stop

@@ -15,13 +15,13 @@
 	<link rel="stylesheet" href="/assets/vendor_components/bootstrap/dist/css/bootstrap.css">
 
 	<!-- Bootstrap extend-->
-	<link rel="stylesheet" href="/dashboard/css/bootstrap-extend.css">
+	<link rel="stylesheet" href="/dashboards/css/bootstrap-extend.css">
 
 	<!-- theme style -->
-	<link rel="stylesheet" href="/dashboard/css/master_style.css">
+	<link rel="stylesheet" href="/dashboards/css/master_style.css">
 
 	<!-- Fab Admin skins -->
-	<link rel="stylesheet" href="/dashboard/css/skins/_all-skins.css">
+	<link rel="stylesheet" href="/dashboards/css/skins/_all-skins.css">
 
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,7 +46,7 @@
 
 
 	<!-- Fab Admin App -->
-	<script src="/dashboard/js/template.js"></script>
+	<script src="/dashboards/js/template.js"></script>
 
 	@yield('content-body')
 

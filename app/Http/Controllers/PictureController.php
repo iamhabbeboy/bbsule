@@ -20,7 +20,7 @@ class PictureController extends Controller
 
     public function home(Gallery $gallery)
     {
-        $galleries = $gallery->get()->first();
+        $galleries = $gallery->orderBy('id', 'DESC')->get()->first();
         return view('dashboard.home', compact('galleries'));
     }
 
@@ -38,12 +38,12 @@ class PictureController extends Controller
         $store = [];
         $combine = '';
         foreach ($images as $image) {
-            $imagename = time() . '.' . str_replace(' ', '-', $image->getClientOriginalName()) . $image->getClientOriginalExtension();
-            $destinationPath = public_path('/gallery');
+            $imagename = time() . '.' . str_replace(' ', '-', $image->getClientOriginalName());
+            $destinationPath = public_path('/picture');
             $image->move($destinationPath, $imagename);
             // array_push($store, $imagename);
             $combine .= $imagename . ',';
-            echo "<div class=\"col-md-3\"><img src=\"/gallery/{$imagename}\" class=\"image\" style=\"border:1px solid #ccc;padding:2px;\" /></div>";
+            echo "<div class=\"col-md-3\"><img src=\"/picture/{$imagename}\" class=\"image\" style=\"border:1px solid #ccc;padding:2px;\" /></div>";
         }
         $last_id = $gallery->create(['user_id' => 'admin', 'image_path' => $combine]);
         session(['last_id' => $last_id->id]);
@@ -65,7 +65,7 @@ class PictureController extends Controller
 
     public function gallery(Gallery $gallery)
     {
-        $galleries = $gallery->all();
+        $galleries = $gallery->orderBy('id', 'DESC')->get();
         return view('dashboard.gallery', compact('galleries'));
     }
 }

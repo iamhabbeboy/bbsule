@@ -16,7 +16,7 @@
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
 	  <div>
-		  <a href="index.html" class="sidebar-toggle" data-toggle="push-menu" role="button">
+		  <a href="javascript:void" class="sidebar-toggle" data-toggle="push-menu" role="button">
 			<span class="sr-only">Toggle navigation</span>
 		  </a>
 

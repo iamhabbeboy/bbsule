@@ -7,6 +7,7 @@ class IndexController extends Controller
 {
     public function index(Gallery $gallery)
     {
+        // echo "Hello world !";
         $galleries = $gallery->whereNotNull('caption')->get();
         return view('gallery', compact('galleries'));
     }

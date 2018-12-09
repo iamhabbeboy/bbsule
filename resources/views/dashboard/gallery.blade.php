@@ -32,19 +32,27 @@
 				</div>
           <div class="box-body">
                 {{-- <div class="row"> --}}
-                @if(count($galleries) > 0)
-                  @foreach($galleries as $gallery)
-                    <h3>{{$gallery->caption}}</h3>
-                    <p>Category: {{$gallery->category}}</p>
-                    <div class="row">
-                      @foreach(explode(',', $gallery->image_path) as $pix)
-                        @if($pix !== '')
-                          <div class="col-md-3"><img src="/gallery/{{$pix}}" class="image" /></div>
-                        @endif
-                      @endforeach
+          @if(count($galleries) > 0)
+           @foreach($galleries as $gallery)
+           @if($gallery->caption === null)
+           @else
+						<h3>{{$gallery->caption}}</h3>
+						<p>Category: {{$gallery->category}}</p>
+						<p>{{$gallery->created_at->format('Y-m-d h:ia')}}</p>
+						<div class="row">
+						@foreach(explode(',', $gallery->image_path) as $pix)
+							@if($pix !== '')
+                <div class="col-md-3">
+                <a href="/picture/{{$pix}}" target="_blank">
+                  <img src="/picture/{{$pix}}" class="image" style="padding:3px;border: 1px solid #ccc"/>
+                </a>
+                </div>
+							@endif
+						@endforeach
                     </div>
                     <hr>
                     <br>
+                    @endif
                   @endforeach
               @else
                 <div class="alert alert-info">
