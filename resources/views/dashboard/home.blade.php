@@ -71,12 +71,13 @@
             </div>
             <div class="box-body">
 				<!-- <div class="row"> -->
+                @if (array_get($galleries, 'category'))
                     <p>Category: {{$galleries->category}}</p>
 					          <p>Created: {{$galleries->created_at->format('Y-m-d h:ia')}}</p>
-                      
+
                     <div class="row">
                       @if(array_get($galleries, 'image_path'))
-                      
+
                       @foreach(explode(',', $galleries->image_path) as $pix)
                         @if($pix !== '')
                           <div class="col-md-3">
@@ -94,6 +95,9 @@
                     </div>
                     <hr>
                     <br>
+                  @else
+                    <div class="alert-info alert">No Information available</div>
+                  @endif
 
             <!-- </div> -->
             <!-- /.box-body -->
