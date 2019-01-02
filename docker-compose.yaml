@@ -11,7 +11,7 @@ services:
             - 80:8000
         volumes:
             - ./logs:/usr/src/webapp/storage/logs
-            - $PWD:/usr/src/webapp
+            - ./:/usr/src/webapp
     
     mysql:
         container_name: bbsule_db
