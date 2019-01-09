@@ -333,7 +333,7 @@
                 <div class="row">
                     <div class="site-branding col-md-4 col-sm-6 col-9">
                         <a href="/" class="custom-logo-link" rel="home" itemprop="url">
-					<img width="100" height="26" src="/client/BBSule-Logo.png" class="custom-logo" alt="Logistics" itemprop="logo" /></a> </div><!-- .site-branding -->
+					<img width="150" height="26" src="/client/BBSule-Logo.png" class="custom-logo" alt="Logistics" itemprop="logo" /></a> </div><!-- .site-branding -->
                     <div class="header-mobile-menu col-md-8 col-sm-6 col-3">
                         <button class="mobile-menu-toggle" aria-controls="primary-menu">
                             <span class="mobile-menu-toggle_lines"></span>
@@ -386,9 +386,7 @@
                         <li class="header-cart-link">
                         </li>
                     </ul> -->
-                    <div class="header-cta">
-                        <a href="/contact">Get a quote</a>
-                    </div>
+
                     <div class="header-search-form">
                         <form role="search" method="get" class="search-form" action="https://demo.athemes.com/airi-logistics/">
                             <label>

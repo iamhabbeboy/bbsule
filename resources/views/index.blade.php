@@ -18,7 +18,7 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="28f970c6" class="elementor-element elementor-element-28f970c6 elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default animated animated bounceIn">Fashion Designing &amp; Others</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default animated animated bounceIn">fashion designing, pattern cutting, bridal design</h2>		</div>
 				</div>
 				<section data-id="66ae65ec" class="elementor-element elementor-element-66ae65ec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -29,7 +29,7 @@
 				<div data-id="3681f5ea" class="elementor-element elementor-element-3681f5ea elementor-widget elementor-widget-button" data-element_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#services" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">VIEW SERVICES</span>
 		</span>
@@ -46,11 +46,11 @@
 				<div data-id="822bdfa" class="elementor-element elementor-element-822bdfa elementor-widget elementor-widget-button" data-element_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="/contact" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+		{{-- 	<a href="/contact" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Get a quote</span>
 		</span>
-					</a>
+					</a> --}}
 		</div>
 				</div>
 				</div>
