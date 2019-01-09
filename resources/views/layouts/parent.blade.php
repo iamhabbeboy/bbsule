@@ -387,7 +387,7 @@
                         </li>
                     </ul> -->
                     <div class="header-cta">
-                        <a href="/contact">Get a quote</a>
+                        <!-- <a href="/contact">Get a quote</a> -->
                     </div>
                     <div class="header-search-form">
                         <form role="search" method="get" class="search-form" action="https://demo.athemes.com/airi-logistics/">
