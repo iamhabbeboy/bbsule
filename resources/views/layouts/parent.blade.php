@@ -411,12 +411,12 @@
 							<div class="sidebar-column col-md-3">
 					<section id="text-3" class="widget widget_text">			<div class="textwidget"><p><img class="alignnone size-full wp-image-350" src="/client/BBSule-Logo.png" alt="" width="66" height="24" /></p>
 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.</p>
-<p><span style="color: #bfbfbf;">@2018 atu. All rights reserved.</span></p>
+<p><span style="color: #bfbfbf;">@2018 BBsule. All rights reserved.</span></p>
 </div>
 		</section>				</div>
 
 							<div class="sidebar-column col-md-3">
-					<section id="text-4" class="widget widget_text"><h3 class="widget-title">Contact us</h3>			<div class="textwidget"><p><span style="color: #bfbfbf;">Email:</span> office@example.org</p>
+					<section id="text-4" class="widget widget_text"><h3 class="widget-title">Contact us</h3>			<div class="textwidget"><p><span style="color: #bfbfbf;">Email:</span> info@bbsule.com</p>
 <p><span style="color: #bfbfbf;">Phone:</span> 07969232002</p>
 <p><span style="color: #bfbfbf;">Address:</span> 25 Canal St., New York</p>
 </div>
@@ -428,7 +428,7 @@
 <li id="menu-item-176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-176"><a href="#">Privacy policy</a></li>
 </ul></div></section>				</div>
 										<div class="sidebar-column col-md-3">
-					<section id="athemes_social_widget-2" class="widget widget_athemes_social_widget">        <h3 class="widget-title">Follow us</h3>        <div class="menu-social-container"><ul id="menu-social" class="menu social-media-list clearfix"><li id="menu-item-177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a href="https://facebook.com"><span class="screen-reader-text">Facebook</span></a></li>
+					<section id="athemes_social_widget-2" class="widget widget_athemes_social_widget">        <h3 class="widget-title">Follow us</h3>        <div class="menu-social-container"><ul id="menu-social" class="menu social-media-list clearfix"><li id="menu-item-177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177"><a href="https://facebook.com/bbsule"><span class="screen-reader-text">Facebook</span></a></li>
 <li id="menu-item-178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178"><a href="https://twitter.com"><span class="screen-reader-text">Twitter</span></a></li>
 <li id="menu-item-179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-179"><a href="https://instagram.com"><span class="screen-reader-text">Instagram</span></a></li>
 <li id="menu-item-180" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180"><a href="https://linkedin.com"><span class="screen-reader-text">Linkedin</span></a></li>
