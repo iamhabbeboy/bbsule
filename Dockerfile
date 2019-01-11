@@ -32,7 +32,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     php -r "unlink('composer-setup.php');"
 
 # Copy contents of current folder into the work directory
-# COPY . .
+COPY . .
 
 # Copy contents of env.example to env
 RUN cp .env.example .env
