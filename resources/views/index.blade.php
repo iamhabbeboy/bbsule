@@ -18,7 +18,8 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="28f970c6" class="elementor-element elementor-element-28f970c6 elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default animated animated bounceIn">fashion designing, pattern cutting, bridal design</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default animated animated bounceIn">Bespoke fashion and Alterations
+</h2>		</div>
 				</div>
 				<section data-id="66ae65ec" class="elementor-element elementor-element-66ae65ec elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -197,7 +198,8 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="e4aa717" class="elementor-element elementor-element-e4aa717 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="148" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/1.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Air freight</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper">
+				<figure class="elementor-image-box-img"><img width="130" height="149" src="/client/gown.svg" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Bespoke evening gowns</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
 				</div>
 						</div>
 			</div>
@@ -207,7 +209,8 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="7144360" class="elementor-element elementor-element-7144360 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="149" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/4.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Warehouse</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper">
+				<figure class="elementor-image-box-img"><img width="130" height="149" src="/client/dress.svg" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Custom made garments</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
 				</div>
 						</div>
 			</div>
@@ -223,7 +226,7 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="97ff5c3" class="elementor-element elementor-element-97ff5c3 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="149" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/2.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Ship freight</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="130" height="149" src="/client/fashion.svg" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title"> Pattern cutting&Sample making</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
 				</div>
 						</div>
 			</div>
@@ -233,7 +236,8 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="cb56539" class="elementor-element elementor-element-cb56539 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="149" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/5.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Packaging</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="130" height="149" src="/client/stiching.svg" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Alterations</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			</p></div></div>		</div>
 				</div>
 						</div>
 			</div>
@@ -241,32 +245,7 @@
 						</div>
 			</div>
 		</section>
-				<section data-id="84385ff" class="elementor-element elementor-element-84385ff elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-wider">
-				<div class="elementor-row">
-				<div data-id="b8f9518" class="elementor-element elementor-element-b8f9518 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div data-id="d2b3172" class="elementor-element elementor-element-d2b3172 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="148" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/3.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Railway freight</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
-				</div>
-						</div>
-			</div>
-		</div>
-				<div data-id="fdacaa3" class="elementor-element elementor-element-fdacaa3 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div data-id="e66890b" class="elementor-element elementor-element-e66890b elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="200" height="149" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/6.png" class="attachment-full size-full" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Road transportation</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></div>		</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
+
 						</div>
 			</div>
 		</div>

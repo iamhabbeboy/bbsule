@@ -347,7 +347,7 @@
                             </div>
                             <div class="contact-text">
                                 <span>Call us</span>
-                                <span>999.999.999</span>
+                                <span>07969232002</span>
                             </div>
                         </div>
                         <div class="contact-block">
@@ -356,7 +356,10 @@
                             </div>
                             <div class="contact-text">
                                 <span>Address</span>
-                                <span>Brooklyn Street</span>
+                                <span style="font-size: 13px !important;">
+                                    Unit 5F,Business&Technology Centre<br/>
+                                    Stevenage
+                                </span>
                             </div>
                         </div>
                         <div class="contact-block">
