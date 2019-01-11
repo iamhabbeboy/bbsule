@@ -370,7 +370,7 @@
                         </div>
                     </div>
                 </div>
-                <nav id="site-navigation" class="main-navigation col-md-12">
+                <nav id="site-navigation" style="background-color: #333333" class="main-navigation col-md-12">
                     <div class="menu-menu-container">
                         <ul id="primary-menu" class="menu">
                             <li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-169"><a href="/">Home</a></li>

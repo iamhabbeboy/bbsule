@@ -446,41 +446,7 @@
 						</div>
 			</div>
 		</section>
-				<section data-id="66fa81eb" class="elementor-element elementor-element-66fa81eb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-				<div data-id="4ac38423" class="elementor-element elementor-element-4ac38423 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
-			<div class="elementor-column-wrap elementor-element-populated">
-					<div class="elementor-widget-wrap">
-				<div data-id="3ca5126" class="elementor-element elementor-element-3ca5126 gallery-spacing-custom elementor-widget elementor-widget-image-gallery" data-element_type="image-gallery.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-image-gallery">
-			<div id='gallery-1' class='gallery galleryid-6 gallery-columns-5 gallery-size-medium'><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="90" height="43" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/1-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="115" height="48" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/2-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="137" height="44" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/4-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="147" height="37" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/5-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="196" height="41" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/3-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure>
-		</div>
-		</div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
+
 						</div>
 			</div>
 		</div>
