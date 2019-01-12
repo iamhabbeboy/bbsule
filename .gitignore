@@ -17,3 +17,6 @@ resources/views/gallery.html
 resources/views/login.html
 .DS_Store
 /.phpintel
+mysql-db
+.DS_Store
+/.DS_Store
