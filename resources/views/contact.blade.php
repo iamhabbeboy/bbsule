@@ -47,6 +47,26 @@
 					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 				<br><br>
 				<div class="row">
+					<div class="col-md-7" style="text-align: left !important">
+						<h4>BBSULE FASHION DESIGN &amp; ALTERATIONS</h4>
+						<br>
+						<p>
+							<b><span ><i class="fa fa-home"></i></span> Our Address</b>
+							<address style="padding-left: 30px;">
+								<i class="fa fa-map-marker"></i> Unit 5F, Business&Technology Centre, <br/>
+				             &nbsp;&nbsp;Bessemer Drive, Gunnels wood Road <br/>
+				            &nbsp;&nbsp;Stevenage, SG1 2DX</address>
+						</p>
+						<p>
+							<b><span ><i class="fa fa-envelope"></i></span> info@bbsule.com</b>
+							<p></p>
+						</p>
+						<br>
+						<p>
+							<b><span ><i class="fa fa-phone"></i></span> 07969232002</b>
+							<p></p>
+						</p>
+					</div>
 					<div class="col-md-5" style="text-align: left !important">
 						<form>
 							<div class="form-group">
@@ -70,56 +90,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-md-7">
-						<div data-id="1d61ea14" class="elementor-element elementor-element-1d61ea14 elementor-widget elementor-widget-google_maps" data-element_type="google_maps.airi_google_maps">
-				<div class="elementor-widget-container">
 
-		<div id="airi-map"></div>
-
-        <script type="text/javascript">
-
-            function init() {
-
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 14,
-
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.712775, -74.005973), // New York
-
-                    // How you would like to style the map.
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"sairiration":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-                };
-
-                var mapElement = document.getElementById('airi-map');
-
-                var map = new google.maps.Map(mapElement, mapOptions);
-
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.712775, -74.005973),
-                    map: map,
-                    icon: "http://demo.athemes.com/atu-logistics/wp-content/uploads/sites/89/2018/07/marker.png",
-                });
-
-
-			}
-
-        </script>
-                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&callback=init"></script>
-
-        <style type="text/css">
-            #airi-map {
-								width: 100%;
-								height: 360px;
-            }
-        </style>
-
-					</div>
-				</div>
-
-
-				</div>
 				</div>
 				</div>
 
