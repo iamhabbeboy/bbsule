@@ -49,7 +49,7 @@
 				</div>
 				</div>
 
-					@if(count($galleries) )
+			@if(count($galleries) )
             @foreach($galleries as $gallery)
                 <h3>{{$gallery->caption}}</h3>
                     <p>Category: {{$gallery->category}}</p>

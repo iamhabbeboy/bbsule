@@ -333,7 +333,7 @@
                 <div class="row">
                     <div class="site-branding col-md-4 col-sm-6 col-9">
                         <a href="/" class="custom-logo-link" rel="home" itemprop="url">
-					<img width="100" height="26" src="/client/BBSule-Logo.png" class="custom-logo" alt="Logistics" itemprop="logo" /></a> </div><!-- .site-branding -->
+					<img width="150" height="26" src="/client/BBSule-Logo.png" class="custom-logo" alt="Logistics" itemprop="logo" /></a> </div><!-- .site-branding -->
                     <div class="header-mobile-menu col-md-8 col-sm-6 col-3">
                         <button class="mobile-menu-toggle" aria-controls="primary-menu">
                             <span class="mobile-menu-toggle_lines"></span>
@@ -356,7 +356,10 @@
                             </div>
                             <div class="contact-text">
                                 <span>Address</span>
-                                <span>Brooklyn Street</span>
+                                <span style="font-size: 13px !important;">
+                                    Unit 5F,Business&Technology Centre<br/>
+                                    Stevenage
+                                </span>
                             </div>
                         </div>
                         <div class="contact-block">
@@ -370,7 +373,7 @@
                         </div>
                     </div>
                 </div>
-                <nav id="site-navigation" class="main-navigation col-md-12">
+                <nav id="site-navigation" style="background-color: #333333" class="main-navigation col-md-12">
                     <div class="menu-menu-container">
                         <ul id="primary-menu" class="menu">
                             <li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-169"><a href="/">Home</a></li>
