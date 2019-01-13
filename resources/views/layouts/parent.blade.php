@@ -357,8 +357,12 @@
                             <div class="contact-text">
                                 <span>Address</span>
                                 <span style="font-size: 13px !important;">
-                                    Unit 5F,Business&Technology Centre<br/>
-                                    Stevenage
+                                    <!-- Unit 5F,Business&Technology Centre<br/>
+                                    Stevenage -->
+
+                                    Unit 5F, Business&Technology Centre, <br/>
+                                    Bessemer Drive, Gunnels wood Road <br/>
+                                    Stevenage, SG1 2DX
                                 </span>
                             </div>
                         </div>
@@ -421,7 +425,9 @@
 							<div class="sidebar-column col-md-3">
 					<section id="text-4" class="widget widget_text"><h3 class="widget-title">Contact us</h3>			<div class="textwidget"><p><span style="color: #bfbfbf;">Email:</span> info@bbsule.com</p>
 <p><span style="color: #bfbfbf;">Phone:</span> 07969232002</p>
-<p><span style="color: #bfbfbf;">Address:</span> 25 Canal St., New York</p>
+<p><span style="color: #bfbfbf;">Address:</span> Unit 5F, Business&Technology Centre, <br/> 
+                                                Bessemer Drive, Gunnels wood Road <br/>
+                                                Stevenage, SG1 2DX</p>
 </div>
 		</section>				</div>
 
