@@ -181,7 +181,7 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="6509cde" class="elementor-element elementor-element-6509cde elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="370" height="250" src="/images/banners/banner-1.jpg" class="attachment-full size-full" alt="" srcset="/images/banners/banner-1.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Safe delivery</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar.</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img" style="overflow: hidden;max-height: 300px;"><img width="370" height="250" style="position: relative;bottom: 130px;" src="/client/fashion.jpeg" class="attachment-full size-full" alt="" srcset="/client/fashion.jpeg" sizes="(max-width: 370px) 100vw, 370px" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Safe delivery</h3><p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar.</p></div></div>		</div>
 				</div>
 				<div data-id="b970db8" class="elementor-element elementor-element-b970db8 elementor-widget elementor-widget-button" data-element_type="button.default">
 				<div class="elementor-widget-container">
