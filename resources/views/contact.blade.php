@@ -1,6 +1,13 @@
 @extends('layouts.parent')
 @section('content')
-<div id="content" class="site-content">
+<style>
+.elementor-6 .elementor-element.elementor-element-1e3ed0a9 {
+	padding: 100px 0px 10px 0px !important;
+}
+</style>
+	<div id="content" class="site-content">
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="elementor elementor-6">
@@ -105,58 +112,6 @@
 			</div>
 		</section>
 
-		<section data-id="6c87aab0" class="elementor-element elementor-element-6c87aab0 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
-			<div class="elementor-container elementor-column-gap-no">
-				<div class="elementor-row">
-					<div data-id="45e1452f" class="elementor-element elementor-element-45e1452f elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
-						<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-								<div data-id="1d61ea14" class="elementor-element elementor-element-1d61ea14 elementor-widget elementor-widget-google_maps" data-element_type="google_maps.airi_google_maps">
-									<div class="elementor-widget-container">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-		<section data-id="66fa81eb" class="elementor-element elementor-element-66fa81eb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
-			<div class="elementor-container elementor-column-gap-default">
-				<div class="elementor-row">
-					<div data-id="4ac38423" class="elementor-element elementor-element-4ac38423 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
-						<div class="elementor-column-wrap elementor-element-populated">
-							<div class="elementor-widget-wrap">
-								<div data-id="3ca5126" class="elementor-element elementor-element-3ca5126 gallery-spacing-custom elementor-widget elementor-widget-image-gallery" data-element_type="image-gallery.default">
-									<div class="elementor-widget-container">
-										<div class="elementor-image-gallery">
-											<div id='gallery-1' class='gallery galleryid-6 gallery-columns-5 gallery-size-medium'>
-												<figure class='gallery-item'>
-													<div class='gallery-icon landscape'>
-														<img width="90" height="43" src="/images/user7-128x128.jpg" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="115" height="48" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/2-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="137" height="44" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/4-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="147" height="37" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/5-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure><figure class='gallery-item'>
-			<div class='gallery-icon landscape'>
-				<img width="196" height="41" src="https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/89/2018/07/3-1.png" class="attachment-medium size-medium" alt="" />
-			</div></figure>
-		</div>
-		</div>
-				</div>
-				</div>
-						</div>
-			</div>
-		</div>
-						</div>
-			</div>
-		</section>
-						</div>
-			</div>
 		</div>
 
 		</main><!-- #main -->
