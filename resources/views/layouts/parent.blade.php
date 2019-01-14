@@ -414,14 +414,14 @@
 							<div class="sidebar-column col-md-3">
 					<section id="text-3" class="widget widget_text">			<div class="textwidget"><p><img class="alignnone size-full wp-image-350" src="/client/BBSule-Logo.png" alt="" width="66" height="24" /></p>
 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum.</p>
-<p><span style="color: #bfbfbf;">@2018 BBsule. All rights reserved.</span></p>
+<p><span style="color: #bfbfbf;">&copy;{{ date('Y') }} BBsule. All rights reserved.</span></p>
 </div>
 		</section>				</div>
 
 							<div class="sidebar-column col-md-3">
 					<section id="text-4" class="widget widget_text"><h3 class="widget-title">Contact us</h3>			<div class="textwidget"><p><span style="color: #bfbfbf;">Email:</span> info@bbsule.com</p>
 <p><span style="color: #bfbfbf;">Phone:</span> 07969232002</p>
-<p><span style="color: #bfbfbf;">Address:</span> 25 Canal St., New York</p>
+<p><span style="color: #bfbfbf;">Address:</span>  <br/>Unit 5F, Business&Technology Centre, <br/>Bessemer Drive, Gunnels wood Road, Stevenage, SG1 2DX</p>
 </div>
 		</section>				</div>
 
