@@ -123,7 +123,7 @@
     .menuStyle4 .contact-area .contact-block .contact-icon,
     .widget_categories li:hover::before,
     .widget_categories li:hover a {
-        color: #f89121;
+        color: #ffed4a;
     }
 
     .menuStyle4 .contact-area .contact-block .contact-icon,
@@ -132,7 +132,7 @@
     input[type="button"],
     input[type="reset"],
     input[type="submit"] {
-        border-color: #f89121;
+        border-color: #ffed4a;
     }
 
     .menuStyle2 .main-navigation a:hover:after,
@@ -147,7 +147,7 @@
     input[type="submit"],
     .menuStyle3 .main-navigation a:hover:after,
     .menuStyle3 .main-navigation .current-menu-item:after {
-        background-color: #f89121;
+        background-color: #ffed4a;
     }
 
     .menuStyle4 .site-title a {
