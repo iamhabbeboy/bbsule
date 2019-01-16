@@ -38,7 +38,7 @@ COPY . .
 RUN cp .env.example .env
 
 # Run composer install, generate key
-RUN composer update && php artisan key:generate
+# RUN composer update && php artisan key:generate
 
 # TODO: Create a script to check if mysql server is up and running then try to migrate
 
