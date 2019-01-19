@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Gallery;
+use App\Testimony;
 
 class IndexController extends Controller
 {
@@ -10,6 +11,13 @@ class IndexController extends Controller
         // echo "Hello world !";
         $galleries = $gallery->whereNotNull('caption')->get();
         return view('gallery', compact('galleries'));
+    }
+
+    public function home(Testimony $testimony)
+    {
+        $testimonies = $testimony->whereNotNull('testimony')
+            ->orderByRaw('RAND()')->limit(2)->get();
+        return view('index', compact('testimonies'));
     }
 
     public function about()

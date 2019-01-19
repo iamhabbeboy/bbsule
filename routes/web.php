@@ -11,9 +11,7 @@
 |
  */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'IndexController@home');
 
 Route::get('/gallery', 'IndexController@index');
 
@@ -21,18 +19,20 @@ Route::get('/about-us', 'IndexController@about');
 
 Route::get('/contact', 'IndexController@contact');
 
-Route::get('/dashboard', 'PictureController@home')->middleware('auth');
-
-Route::get('/dashboard/picture', 'PictureController@index');
-
 Route::post('/ajax-pictures', 'PictureController@store');
 
 Route::post('/store-pix', 'PictureController@create')->name('store_route');
 
 Route::post('/category', 'CategoryController@store');
 
-Route::get('/dashboard/gallery', 'PictureController@gallery');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => 'auth', 'prefix' => 'dashboard'], function () {
+    Route::get('/', 'PictureController@home');
+    Route::get('/picture', 'PictureController@index');
+    Route::get('/gallery', 'PictureController@gallery');
+    Route::get('/testimony', 'TestimonyController@index');
+    Route::post('/store-testimony', 'TestimonyController@store');
+});

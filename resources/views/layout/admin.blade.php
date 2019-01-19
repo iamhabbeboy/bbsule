@@ -40,7 +40,7 @@
 	<!-- jQuery 3 -->
 	<script src="/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js"></script>
 
-
+	<script src="/summernote/popper.js"></script>
 	<!-- Bootstrap 4.0-->
 	<script src="/assets/vendor_components/bootstrap/dist/js/bootstrap.js"></script>
 
