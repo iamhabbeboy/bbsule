@@ -257,7 +257,7 @@ mark,
 
 .img-bordered-orange
 {
-    border-color: #fb8c00 !important;
+    border-color:#ffed4a !important;
 }
 
 code
@@ -569,13 +569,13 @@ pre code {
 
 .table-hover .table-warning:hover
 {
-    background-color: #e68900;
+    background-color: #ffed4a;
 }
 .table-hover .table-warning:hover > td,
 .table-hover .table-warning:hover > th
 {
     color: #fff;
-    background-color: #e68900;
+    background-color: #ffed4a;
 }
 
 .table-danger,
@@ -629,7 +629,7 @@ pre code {
 .table .thead-warning th
 {
     color: #fff;
-    background-color: #ff9800;
+    background-color: #ffed4a;
 }
 
 .table .thead-danger th
@@ -853,7 +853,7 @@ select.form-control-sm:not([size]):not([multiple]),
 
 .has-warning .form-control
 {
-    border-color: #ff9800; 
+    border-color: #ffed4a; 
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
@@ -1610,7 +1610,7 @@ input::-ms-clear
 .dropdown-menu-warning .dropdown-iten.active:focus
 {
     color: #fff;
-    background-color: #ff9800;
+    background-color: #ffed4a;
 }
 
 .dropdown-menu-danger .dropdown-iten.active,
