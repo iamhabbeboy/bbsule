@@ -45,7 +45,11 @@ class PictureController extends Controller
             $combine .= $imagename . ',';
             echo "<div class=\"col-md-3\"><img src=\"/picture/{$imagename}\" class=\"image\" style=\"border:1px solid #ccc;padding:2px;\" /></div>";
         }
-        $last_id = $gallery->create(['user_id' => 'admin', 'image_path' => $combine]);
+        $last_id = $gallery->create([
+            'user_id' => 'admin', 
+            'upload_type' => $request->upload_type, 
+            'image_path' => $combine
+        ]);
         session(['last_id' => $last_id->id]);
         // return response()->json(["images" => $store]);
     }
@@ -67,5 +71,11 @@ class PictureController extends Controller
     {
         $galleries = $gallery->orderBy('id', 'DESC')->get();
         return view('dashboard.gallery', compact('galleries'));
+    }
+
+    public function ourWork(Gallery $gallery)
+    {
+        $galleries = $gallery->whereNotNull('caption')->where('upload_type', 'work')->get();
+        return view('our-work', compact('galleries'));
     }
 }

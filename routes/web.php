@@ -15,6 +15,8 @@ Route::get('/', 'IndexController@home');
 
 Route::get('/gallery', 'IndexController@index');
 
+Route::get('/our-work', 'PictureController@ourWork');
+
 Route::get('/about-us', 'IndexController@about');
 
 Route::get('/contact', 'IndexController@contact');

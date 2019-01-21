@@ -38,6 +38,7 @@
            @else
 						<h3>{{$gallery->caption}}</h3>
 						<p>Category: {{$gallery->category}}</p>
+            <p>Upload Type: {{$gallery->upload_type ?? 'N/A'}} </p>
 						<p>{{$gallery->created_at->format('Y-m-d h:ia')}}</p>
 						<div class="row">
 						@foreach(explode(',', $gallery->image_path) as $pix)

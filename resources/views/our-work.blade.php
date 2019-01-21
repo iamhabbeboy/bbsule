@@ -21,7 +21,7 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="28f970c6" class="elementor-element elementor-element-28f970c6 elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default animated bounceIn">Gallery</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default animated bounceIn">Our Works</h2>		</div>
 				</div>
 
 						</div>
@@ -70,7 +70,7 @@
                 @endforeach
               @else
                 <div class="alert alert-info">
-                  <p>No Image in the gallery</p>
+                  <p>No Image for our work</p>
                 </div>
                @endif
          {{-- <div class="clearfix"></div> --}}

@@ -12,5 +12,6 @@ class Gallery extends Model
         'caption',
         'category',
         'image_path',
+        'upload_type',
     ];
 }

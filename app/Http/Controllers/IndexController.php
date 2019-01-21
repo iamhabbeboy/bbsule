@@ -9,7 +9,8 @@ class IndexController extends Controller
     public function index(Gallery $gallery)
     {
         // echo "Hello world !";
-        $galleries = $gallery->whereNotNull('caption')->get();
+        $galleries = $gallery->whereNotNull('caption')->where('upload_type', 'gallery')
+        ->orWhereNull('upload_type')->get();
         return view('gallery', compact('galleries'));
     }
 

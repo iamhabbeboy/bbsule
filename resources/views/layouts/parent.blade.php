@@ -223,8 +223,9 @@
     }
 
     </style>
-    <script type='text/javascript' src='https://mk0athemesdemon3j7s5.kinstacdn.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-    <script type='text/javascript' src='https://mk0athemesdemon3j7s5.kinstacdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='https://mk0athemesdemon3j7s5.kinstacdn.com/wp-includes/js/jquery/jquery.js'></script>
+    <script type='text/javascript' src='https://mk0athemesdemon3j7s5.kinstacdn.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+
     <!-- Google Webmaster Tools plugin for WordPress -->
     <style type="text/css">
     .recentcomments a {
@@ -382,6 +383,7 @@
                         <ul id="primary-menu" class="menu">
                             <li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-169"><a href="/">Home</a></li>
                             <li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="/gallery">Gallery</a></li>
+                            <li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="/our-work">Our work</a></li>
                             <li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="/about-us">About us</a></li>
                             <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="/contact">Contact</a></li>
                         </ul>

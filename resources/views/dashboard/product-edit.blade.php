@@ -44,6 +44,15 @@
                 @if(Session::has('error'))
                   <div class="alert alert-info">{{session('error')}}</div>
                 @endif
+                <div class="form-group">
+								  <label class="text-info">Upload Type</label>
+                  <select class="form-control" name="upload_type">
+                    <option value="">select</option>
+                    <option value="gallery">Gallery</option>
+                    <option value="work">Our Work </option>
+                  </select>
+
+								</div>
 								<div class="form-group">
 								  <label class="text-info">Caption</label>
 								  <textarea class="form-control" required name="caption"></textarea>

@@ -35,6 +35,7 @@
                 <span>Testimony</span>
           </a>
         </li>
+        
          <li class="">
             <a href="/dashboard/gallery">
                 <i class="fa fa-camera"></i>
