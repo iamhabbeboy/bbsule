@@ -44,7 +44,7 @@
 					<div class="elementor-widget-wrap">
 				<div data-id="7360c3df" class="elementor-element elementor-element-7360c3df elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default " >Our Gallery</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default " >Our Work</h2>		</div>
 				</div>
 				<div data-id="1b17d079" class="elementor-element elementor-element-1b17d079 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
