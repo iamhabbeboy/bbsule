@@ -4,7 +4,34 @@
 .elementor-6 .elementor-element.elementor-element-1e3ed0a9 {
 	padding: 100px 0px 10px 0px !important;
 }
+button {
+	color: #000;
+}
+#card {
+	cursor: pointer;
+}
 </style>
+
+ <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+</script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script>
+
+	$(function() {
+		$("#card").flip({
+		  axis: 'x',
+		  trigger: 'hover'
+		});
+		$("#card1").flip({
+		  axis: 'x',
+		  trigger: 'hover'
+		});
+		$("#card2").flip({
+		  axis: 'x',
+		  trigger: 'hover'
+		});
+	})
+</script>
 
 <div id="content" class="site-content">
 	<div id="primary" class="content-area">
@@ -35,7 +62,7 @@
 																			<div class="elementor-button-wrapper">
 																				<a href="/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 																					<span class="elementor-button-content-wrapper">
-																						<span class="elementor-button-text">VIEW SERVICES</span>
+																						<span class="elementor-button-text" style="color: #000">VIEW SERVICES</span>
 																					</span>
 																				</a>
 																			</div>
@@ -217,8 +244,7 @@
 									<div class="elementor-widget-wrap">
 										<div data-id="7360c3df" class="elementor-element elementor-element-7360c3df elementor-widget elementor-widget-heading" data-element_type="heading.default">
 											<div class="elementor-widget-container">
-												<h2 class="elementor-heading-title elementor-size-default">Our Works</h2>
-											</div>
+												<h2 class="elementor-heading-title elementor-size-default">Our Works</h2> </div>
 										</div>
 										<div data-id="1b17d079" class="elementor-element elementor-element-1b17d079 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 										</div>
@@ -233,9 +259,18 @@
 																	<div class="elementor-widget-container">
 
 																		<div class="elementor-image-box-wrapper">
-																			<figure class="elementor-image-box-img" style="overflow: hidden;max-height: 300px;">
+																			<div class="elementor-image-box-img" style="overflow: hidden;max-height: 300px;width:370px;height:300px;" id="card">
+																				<div class="front">
 																				<img width="370" height="250" style="position: relative;bottom: 130px;" src="/client/fashion.jpeg" class="attachment-full size-full" alt="" srcset="/client/fashion.jpeg" sizes="(max-width: 370px) 100vw, 370px" />
-																			</figure>
+																				</div>
+																				<div class="back" style="border: 1px solid #ccc;text-align: center;background-color: #ccc;padding: 20px;">
+																					<h3>Alterations</h3>
+																					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+																					</p>
+																					<button>View</button>
+																				</div>
+																			</div>
 																			<!-- <div class="elementor-image-box-content">
 																				<h3 class="elementor-image-box-title">Safe delivery</h3>
 																				<p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -270,9 +305,18 @@
 																<div data-id="1a6cb2a" class="elementor-element elementor-element-1a6cb2a elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 																	<div class="elementor-widget-container">
 																		<div class="elementor-image-box-wrapper">
-																			<figure class="elementor-image-box-img">
+																			<div class="elementor-image-box-img" id="card1" style="overflow: hidden;max-height: 300px;width:370px;height:300px;">
+																				<div class="front">
 																				<img width="370" height="250" src="/images/banners/banner-2.jpg" class="attachment-full size-full" alt="" srcset="/images/banners/banner-2.jpg 370w, /images/banners/banner-2.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />
-																			</figure>
+																			</div>
+																				<div class="back" style="border: 1px solid #ccc;text-align: center;background-color: #ccc;padding: 20px;">
+																					<h3>Alterations</h3>
+																					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+																					</p>
+																					<button>View</button>
+																				</div>
+																			</div>
 																			<!-- <div class="elementor-image-box-content">
 																				<h3 class="elementor-image-box-title">Weather proof</h3>
 																				<p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -307,9 +351,18 @@
 																<div data-id="5f8f7c5" class="elementor-element elementor-element-5f8f7c5 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-element_type="image-box.default">
 																	<div class="elementor-widget-container">
 																		<div class="elementor-image-box-wrapper">
-																			<figure class="elementor-image-box-img">
+																			<div class="elementor-image-box-img" style="overflow: hidden;max-height: 300px;width:370px;height:300px;" id="card2">
+																				<div class="front">
 																				<img width="370" height="250" src="/images/banners/banner-3.jpg" class="attachment-full size-full" alt="" srcset="/images/banners/banner-3.jpg 370w, /images/banners/banner-3.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />
-																			</figure>
+																			</div>
+																				<div class="back" style="border: 1px solid #ccc;text-align: center;background-color: #ccc;padding: 20px;">
+																					<h3>Alterations</h3>
+																					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+																					</p>
+																					<button>View</button>
+																				</div>
+																			</div>
 																			<!-- <div class="elementor-image-box-content">
 																				<h3 class="elementor-image-box-title">Fast delivery</h3>
 																				<p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -433,7 +486,6 @@
 
 
 				</div><!-- #content -->
-
 
 
 
