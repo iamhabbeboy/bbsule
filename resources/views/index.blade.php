@@ -11,7 +11,7 @@ button {
 	cursor: pointer;
 }
 .elementor-6 .elementor-element.elementor-element-3fd6ac1e {
-	background-image: url('/client/background.jpg') !important;
+	background-image: url('/client/Attachment-1.jpeg') !important;
 }
 
 #our-services > .elementor-column-gap-extended>.elementor-row>.elementor-column>.elementor-element-populated {
