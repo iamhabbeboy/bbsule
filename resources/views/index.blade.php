@@ -10,6 +10,9 @@ button {
 #card {
 	cursor: pointer;
 }
+.elementor-6 .elementor-element.elementor-element-3fd6ac1e {
+	background-image: url('/client/background.jpg') !important;
+}
 </style>
 
  <script src="https://code.jquery.com/jquery-2.1.4.min.js">
